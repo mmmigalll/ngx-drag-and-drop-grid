@@ -30,7 +30,8 @@
     "test": "ng test",
     "test:lib": "ng test drag-and-drop-grid-module --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build drag-and-drop-grid-module"
   },
   "dependencies": {
     "@angular/animations": "~8.1.1",
